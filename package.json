@@ -1,0 +1,39 @@
+{
+    "name": "vscode-monokai",
+    "displayName": "VScode Monokai Theme",
+    "description": "A cross between Monokai and One Dark theme",
+    "version": "0.3.1",
+    "publisher": "jiang.hongfei",
+    "engines": {
+        "vscode": "^1.13.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "icon": "icon.svg",
+    "contributes": {
+        "themes": [
+            {
+                "label": "VScode Monokai",
+                "uiTheme": "vs-dark",
+                "path": "./themes/vscode-monokai.json"
+            }
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jianghongfei/vscode-monokai"
+    },
+    "bugs": {
+        "url": "https://github.com/jianghongfei/vscode-monokai/issues"
+    },
+    "homepage": "https://github.com/jianghongfei/vscode-monokai/blob/master/README.md",
+    "keywords": [
+        "Vscode",
+        "Theme",
+        "Onedark",
+        "Monokai"
+    ],
+    "author": "Jiang Hongfei <jiang.hongfei@gmail.com>",
+    "license": "MIT"
+}
